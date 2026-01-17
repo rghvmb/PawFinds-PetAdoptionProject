@@ -1,0 +1,8 @@
+[build]
+  command = "cd Client && npm install && npm run build"
+  publish = "Client/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
